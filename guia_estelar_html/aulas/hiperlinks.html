@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HiperLinks</title>
+</head>
+    <body>
+        <!--
+            HIPERLINKS - ELEMENTO ÂNCORA
+                - <a>
+                + Anatomia: <a href="">Conteudo</a>
+
+                + Atributos: 
+                    -globais
+                    -hfer: para onde iremos quando clicarmos no link
+                    -url completa: https://google.com.br
+                    -fragmento: #fragmento
+                    -email: mailto: vitoria@gmail.com
+                    -telefone: tel: 92999999999
+                    -e outros
+                - download
+                - target
+                    - _self(padrão)
+                    - _blank
+        -->
+
+        <h1>Guia Estelar de HTML</h1>
+        <h2>RocketSeat</h2>
+        <h2>06 de Fevereiro de 2023</h2>
+        <h2>HiperLinks</h2>
+
+        <hr>
+
+        <p>Encontre-me</p>
+
+        <ul>
+            <li><a href="https://rocketseat.com.br" target="_blank">Website</a></li>
+            <li><a href="mailto:vvitorisilvvvaa@gmail.com">Email</a></li>
+            <li><a href="tel:+5592984222221">Telefone</a></li>
+        </ul>
+
+        <p>Saiba mais</p>
+        <ul>
+            <li><a href="#about">Sobre mim</a></li>
+            <li><a href="#history">História</a></li>
+            <li><a href="#works">Trabalhos</a></li>
+        </ul>
+
+        <h1 id="about">Sobre mim</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem a nobis voluptatum itaque accusantium dolorum explicabo, voluptates eligendi rerum minus illo expedita eius ad magnam sequi saepe, corrupti et animi?</p>
+
+        <h2 id="history">História</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias harum possimus vel odit voluptate eligendi incidunt accusamus! Aliquam dolorem suscipit, et repellat non sunt minima earum, omnis vitae sequi molestias.</p>
+
+        <h2 id="works">Trabalhos</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nostrum officiis repellat asperiores illum id vel, facere commodi nisi ex doloremque, architecto atque reprehenderit esse distinctio? Delectus laboriosam ducimus amet.</p>
+
+        <!--
+            CONTEÚDO DOS HIPERLINKS
+                - qualquer conteúdo
+        -->
+
+        <a href="http://google.com" title="ir para google">
+            <h1>Google</h1>
+            <img src="https://source.unsplash.com/random" alt="">
+        </a>
+
+        <!--
+            URLS E CAMINHOS DE ARQUIVO
+                - Uniform Resource Locator: Sequência de texto que define onde algo está localizado na Web
+                    -https://www.rocketseat.com.br
+                - URL usam caminhos para encontrar arquivos
+
+            -Caminhos dos arquivos
+                - Onde, no explorador de arquivos, um recurso está localizado
+        -->
+
+        <a href="links.html" target="_blank">Abrir aula de links</a> 
+
+        <!--
+            COMO NAVEGAR PELOS DIRETÓRIOS
+                - mesmo diretório
+                - entrando em diretórios
+                - saindo de diretórios
+                - diretório raiz (root ou pai)
+        -->
+
+        <a href="links.html">arquivo na mesma pasta</a>
+        <a href="./links.html">arquivo no diretório raiz</a>
+        <a href="outros/index.html">arquivos na pasta outros</a>
+
+        <br>
+        <a href="../index.html">Voltar</a>
+    </body>
+</html>
